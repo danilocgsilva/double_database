@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "double-database"
+version = "0.1.0"
+authors = [
+    {name="Danilo Silva", email="contact@danilocgsilva.me"}
+]
+description = "Multiplicates the data from a database to test performance"
+
